@@ -1,9 +1,43 @@
-baseURL = "http://pktito.github.io"
-languageCode = "es-ES"
-title = "Roberto Zazo"
+baseURL         = "http://pktito.github.io"
+contentdir      = "content"
+layoutdir       = "layouts"
+publishdir      = "public"
+languageCode    = "es-ES"
+title           = "Roberto Zazo"
+theme           = "hugo-goa"
 
 [params]
-    author = "Roberto Zazo"
-    locale = "es-ES"
-    # rootlink = "/"
-    # rootlink specifies where Root in menu.html links to. If it's not set then baseurl will be used.
+    locale      = "es-ES"
+
+[Author]
+    author      = "Roberto Zazo"
+    email       = "roberto.zazo@gmail.com"
+    facebook    = "username"
+    googleplus  = "+username"
+    gitlab      = "rzazo"
+    github      = "pktito"
+    twitter     = "username"
+    reddit      = "username"
+    linkedin    = "username"
+    xing        = "username"
+    stackoverflow   = "users/XXXXXXX/username"
+    snapchat    = "username"
+    instagram   = "rzazo"
+    youtube     = "user/username" # or channel/channelname
+    soundcloud  = "username"
+
+[[menu.main]]
+    Name        = "Roberto Zazo"
+    URL         = ""
+    weight      = 1
+
+[[menu.main]]
+    name        = "about"
+    identifier  = "about"
+    weight      = 200
+    url         = "/about/"
+
+[[menu.main]]
+    name        = "Tags"
+    url         = "tags"
+    weight      = 3
