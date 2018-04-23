@@ -1,0 +1,9 @@
+baseURL = "http://pktito.github.io"
+languageCode = "es-ES"
+title = "Roberto Zazo"
+
+[params]
+    author = "Roberto Zazo"
+    locale = "es-ES"
+    # rootlink = "/"
+    # rootlink specifies where Root in menu.html links to. If it's not set then baseurl will be used.
